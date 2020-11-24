@@ -1,5 +1,5 @@
 # Ansible Nodejs
-[![Build Status](https://travis-ci.com/supertarto/ansible-nodejs.svg?branch=master)](https://travis-ci.com/supertarto/ansible-nodejs)
+[![CI](https://github.com/supertarto/ansible-nodejs/workflows/CI/badge.svg?event=push)](https://github.com/supertarto/ansible-nodejs/actions?query=workflow%3ACI)
 
 A very simple role to install nodejs and NPM
 
