@@ -3,7 +3,6 @@
   apt:
     name:
       - apt-transport-https
-      - gnupg2
     state: present
 
 - name: Add Nodesource apt key.
