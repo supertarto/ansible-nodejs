@@ -22,7 +22,7 @@
 
 - name: Update apt cache if repo was added.
   apt:
-    update_cache: yes
+    update_cache: true
   when: node_repo.changed
   tags: ['skip_ansible_lint']
 

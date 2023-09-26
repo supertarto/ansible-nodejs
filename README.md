@@ -1,5 +1,5 @@
 # Ansible Nodejs
-[![CI](https://github.com/supertarto/ansible-nodejs/workflows/CI/badge.svg?event=push)](https://github.com/supertarto/ansible-nodejs/actions?query=workflow%3ACI)
+[![CI](https://github.com/supertarto/ansible-nodejs/workflows/ci.yml/badge.svg?event=push)](https://github.com/supertarto/ansible-nodejs/actions?query=workflow%3ACI)
 
 A very simple role to install nodejs and NPM
 
@@ -7,12 +7,13 @@ A very simple role to install nodejs and NPM
 None.
 
 ## Tested plateform
-* Debian 10 (Buster)
+* Debian 11 (Bullseye)
+* Debian 12 (Bookworm)
 
 ## Role variables
 The nodejs Version
 ```yml
-nodejs_version: "12.x"
+nodejs_version: "20.x"
 ```
 
 ## Examples
@@ -21,7 +22,7 @@ nodejs_version: "12.x"
   roles:
     - supertarto.nodejs
   vars:
-    nodejs_version: "12.x"
+    nodejs_version: "20.x"
 ```
 
 ## Installation
