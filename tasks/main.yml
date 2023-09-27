@@ -1,14 +1,13 @@
 ---
-- name: Include distribution and version-specific vars.
-  include_vars: "{{ item }}"
-  with_first_found:
-    - files:
-        - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
-      skip: true
-
+- name: Update apt cache.
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
 - name: Ensure dependencies are present.
-  apt:
-    name: "{{ nodejs_dependencies }}"
+  ansible.builtin.apt:
+    name:
+      - apt-transport-https
+      - gnupg2
     state: present
 
 - name: Add Nodesource apt key.
