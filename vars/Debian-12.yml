@@ -1,0 +1,3 @@
+---
+nodejs_dependencies:
+  - apt-transport-https
