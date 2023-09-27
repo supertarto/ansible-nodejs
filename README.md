@@ -1,5 +1,5 @@
 # Ansible Nodejs
-[![CI](https://github.com/supertarto/ansible-nodejs/workflows/ci.yml/badge.svg?event=push)](https://github.com/supertarto/ansible-nodejs/actions?query=workflow%3ACI)
+[![CI](https://github.com/supertarto/ansible-nodejs/actions/workflows/ci.yml/badge.svg)](https://github.com/supertarto/ansible-nodejs/actions/workflows/ci.yml)
 
 A very simple role to install nodejs and NPM
 
