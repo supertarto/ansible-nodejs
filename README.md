@@ -26,8 +26,8 @@ nodejs_version: "20.x"
 ```
 
 ## Installation
-```
-ansible-galaxy install supertarto.nodejs
+```bash
+ansible-galaxy role install supertarto.nodejs
 ```
 ## License
 GPL V3.0

@@ -5,7 +5,6 @@ galaxy_info:
   author: "Xavier Binois"
   description: "Install and configure nodejs and npm with Ansible "
   role_name: nodejs
-  namespace: "supertarto"
   license: "GNU General Public License v3.0"
   min_ansible_version: 2.10
 
